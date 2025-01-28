@@ -1,0 +1,30 @@
+@media (prefers-color-scheme: dark) {
+  $primary: #fff;
+  $secondary: rgba(235, 235, 245, 0.6);
+  $tertiary: rgba(235, 235, 245, 0.3);
+  $quaternary: rgba(235, 235, 245, 0.18);
+  $linear-1: linear-gradient(138deg, #2e335a 0%, #1c1b33 100%);
+  $linear-1: linear-gradient(90deg, #5936b4 0%, #362a84 100%);
+  $linear-1: linear-gradient(90deg, #427bd1 0%, #c159ec 100%);
+  $linear-1: linear-gradient(
+    180deg,
+    #aec9ff 0%,
+    #aec9ff 54.51%,
+    #083072 54.52%
+  );
+  $radial: radial-gradient(
+    103.89% 121.8% at 34.94% 108.33%,
+    rgb(247, 203, 253) 0%,
+    rgb(119, 88, 209) 100%
+  );
+}
+@media (prefers-color-scheme: light) {
+  $primary: #000;
+  $secondary: rgba(60, 60, 67, 0.6);
+  $tertiary: rgba(60, 60, 67, 0.3);
+  $quaternary: rgba(60, 60, 67, 0.18);
+  $weather-color-solid-1: #48319d;
+  $weather-color-solid-2: #1f1d47;
+  $weather-color-solid-3: #c427fb;
+  $weather-color-solid-4: #e0d9ff;
+}
