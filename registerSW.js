@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/weatherAppVue/sw.js', { scope: '/weatherAppVue/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://meeja1.github.io/weatherAppVue/sw.js', { scope: 'https://meeja1.github.io/weatherAppVue/' })})}
