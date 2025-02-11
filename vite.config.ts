@@ -12,7 +12,7 @@ export default defineConfig({
       plugins: [tailwind(), autoprefixer()]
     }
   },
-  base: "/weatherAppVue",
+  base: "https://meeja1.github.io/weatherAppVue/",
   plugins: [vue(),
   VitePWA({
     registerType: 'autoUpdate',
