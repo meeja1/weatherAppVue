@@ -1,0 +1,1 @@
+{"name":"WeatherVue","short_name":"Weather","start_url":"/","display":"standalone","background_color":"#2EC6FE","lang":"ru-RU","scope":"/","theme_color":"#8936FF","icons":[{"purpose":"maskable","sizes":"512x512","src":"icon512_maskable.png","type":"image/png"},{"purpose":"any","sizes":"512x512","src":"icon512_rounded.png","type":"image/png"}],"orientation":"any"}
