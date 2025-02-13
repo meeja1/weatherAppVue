@@ -12,7 +12,6 @@ export default defineConfig({
       plugins: [tailwind(), autoprefixer()]
     }
   },
-  base: "./",
   plugins: [vue(),
   VitePWA({
     registerType: 'autoUpdate',
