@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { appInstall } from './lib/utils';
+import { appInstall } from './lib/utils.ts';
 
 
 const showInstallButton = ref(true);
