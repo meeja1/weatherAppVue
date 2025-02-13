@@ -6,14 +6,17 @@ import { appInstall } from './lib/utils.ts';
 const showInstallButton = ref(true);
 
 
-onMounted(async () => {
-  appInstall()
+onMounted(() => {
+  if (window.matchMedia('(display-mode: standalone)').matches) {
+    showInstallButton.value = false
+  } else {
+    appInstall()
+  }
 });
 </script>
 
 <template>
-  <h1>sdf</h1>
-  <button v-if="showInstallButton" id="buttonInstall">Установить</button>
+  <button v-if="showInstallButton">Установить</button>
 </template>
 
 <style scoped></style>
