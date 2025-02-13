@@ -42,7 +42,7 @@ export default defineConfig({
       "orientation": "any",
       "display": "standalone",
       "lang": "ru-RU",
-      "start_url": "/"
+      "start_url": "https://meeja1.github.io/weatherAppVue/"
     }
   }
   )],
